@@ -2,8 +2,8 @@
 
 def position_taken?(board, idx)
   if board[idx] == " "
-    true
-  else
     false
+  else
+    true
   end
 end
